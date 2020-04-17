@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_app">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
+        <license_category/>
         <license_model>none</license_model>
         <logo/>
         <menu/>
@@ -32,5 +34,13 @@
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>
+        <x_481381_001_u_glide_date_1/>
+        <x_481381_001_u_glide_date_7/>
+        <x_481381_001_u_glide_list_8/>
+        <x_481381_001_u_glide_time_11/>
+        <x_481381_001_u_simple_name_values_10/>
+        <x_481381_001_u_simple_name_values_2/>
+        <x_481381_001_u_string_6/>
+        <x_481381_001_u_string_9/>
     </sys_app>
 </record_update>
