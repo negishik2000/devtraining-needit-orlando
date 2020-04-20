@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer">
+    <sys_report_layer action="INSERT_OR_UPDATE">
+        <aggregate>COUNT</aggregate>
+        <allow_data_label_overlap>true</allow_data_label_overlap>
+        <bar_unstack>false</bar_unstack>
+        <color display_value="UI14 Green">3b36c9b3d7332100fa6c0c12ce610311</color>
+        <color_palette display_value="Blues light to dark (5)">b22671cdd7500200b96d45a3ce6103ee</color_palette>
+        <colors/>
+        <compute_percent>aggregate</compute_percent>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <field>u_requested_for</field>
+        <filter/>
+        <import_table/>
+        <interval>month</interval>
+        <list_ui_view/>
+        <report display_value="NeedIt Requests by Type">f6db1354db901010aec287423996198d</report>
+        <report_source/>
+        <sequence>1</sequence>
+        <series_name_text>Monthly Active Requests by Requested for</series_name_text>
+        <set_color>several_colors</set_color>
+        <show_2nd_y_axis>false</show_2nd_y_axis>
+        <show_chart_data_label>true</show_chart_data_label>
+        <show_data_label_position_middle>true</show_data_label_position_middle>
+        <show_marker>false</show_marker>
+        <source_type>table</source_type>
+        <style_config/>
+        <sumfield/>
+        <sys_class_name>sys_report_layer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 05:21:16</sys_created_on>
+        <sys_id>a17dab1cdb901010aec2874239961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Monthly Active Requests by Requested for</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_report_layer_a17dab1cdb901010aec2874239961936</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-17 05:21:16</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <trend_field>u_when_needed</trend_field>
+        <type>line_bar</type>
+        <use_null_in_trend>false</use_null_in_trend>
+        <y_axis_from/>
+        <y_axis_title/>
+        <y_axis_to/>
+    </sys_report_layer>
+</record_update>
